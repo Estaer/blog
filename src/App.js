@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
-import BlogContent from './components/BlogContent';
+import NextContent from './components/NextContent';
+import BookContent from './components/BookContent';
 import Main from './components/Main';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -13,7 +14,8 @@ function App()
       <div className="App">
         <Switch>
         <Route path="/" exact component={Main} />
-        <Route path="/blogs/next-for-vercel" exact component={BlogContent} />
+        <Route path="/blogs/next-for-vercel" exact component={NextContent} />
+        <Route path="/blogs/books-people-reread" exact component={BookContent} />
         </Switch>
       </div>
       </Router>
