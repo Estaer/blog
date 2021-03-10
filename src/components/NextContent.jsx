@@ -3,7 +3,6 @@ import Header from './Header';
 
 /* eslint-disable import/no-webpack-loader-syntax */
 import NextForVercel from '!babel-loader!@mdx-js/loader!../pages/NextForVercel.mdx'
-import Trial from '!babel-loader!@mdx-js/loader!../pages/Trial.mdx'
 
 function NextContent()
 {
