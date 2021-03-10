@@ -1,38 +1,64 @@
-.App {
+.App{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.header{
+  display:flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  max-width: 42rem;
+  margin: auto;
+  padding: 10px 0;
 }
 
-.App-link {
-  color: #61dafb;
+.main{
+  text-decoration: none;
+  color: #000;
+  display: inline-flex;
+  padding: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home{
+  font-weight: bold;
+  font-size: 18px;
+  display: inline-flex;
+  align-items: center;
+  height: 30px;
+  line-height: 20px;
+  padding: 10px;
+}
+
+.source{
+  padding: 6px 10px;
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 13px;
+  color: #333;
+}
+
+.follow{
+  font-weight: bold;
+  background: #000;
+  font-size: 13px;
+  color: #FFF;
+  padding: 6px 10px;
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.blogs{
+  padding: 20px 0px;
+  max-width: 42rem;
+  margin: auto;
+}
+
+.blog-items{
+  list-style: none;
+  padding: 10px;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
