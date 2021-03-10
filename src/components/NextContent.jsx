@@ -4,14 +4,16 @@ import Header from './Header';
 /* eslint-disable import/no-webpack-loader-syntax */
 import NextForVercel from '!babel-loader!@mdx-js/loader!../pages/NextForVercel.mdx'
 
-function BlogContent()
+function NextContent()
 {
     return (
       <div className="blogContent">
-        <Header />
-        <NextForVercel />
+        <div className="article">
+          <Header />
+          <NextForVercel />
+        </div>
       </div>
     );
   }
 
-export default BlogContent;
+export default NextContent;
